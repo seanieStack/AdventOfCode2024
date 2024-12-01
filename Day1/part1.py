@@ -10,4 +10,4 @@ for line in lines:
 left.sort()
 right.sort()
 
-print(sum([abs(left - right) for left, right in zip(left, right)]))
+print(sum([abs(l - r) for l, r in zip(left, right)]))
